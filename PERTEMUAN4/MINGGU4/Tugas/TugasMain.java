@@ -8,7 +8,7 @@ public class TugasMain {
         Server s = new Server("10");
         GloryGame g = new GloryGame("Lord Grim", s, t);
 
-        g.informasi();
+        System.out.println(g.informasi());
     }
 
 }
